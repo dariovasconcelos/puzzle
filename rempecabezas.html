@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Puzzle</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/TimelineMax.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/game.js"></script>
+</head>
+<body>
+	<div id="ButtonsZone">
+		<button onclick="setPiezas(9)">9 piezas</button>
+		<button onclick="setPiezas(4)">4 piezas</button>
+		<button onclick="setPiezas(16)">16 piezas</button>
+		<button onclick="setPiezas(25)">25 piezas</button>
+		<button onclick="setPiezas(36)">36 piezas</button>
+		<button onclick="setPiezas(49)">49 piezas</button>
+	</div>
+	<div id="wrapper">
+		<div id="zonaPiezas">
+		    <div id="piezas">				
+			</div>			
+		</div>
+		<div id="zonaTablero">
+			<div id="tablero">				
+			</div>
+		</div>
+	</div>
+    <div id="forma">
+        <form name="contact" method="POST" action="thank-you" netlify>
+          <p>
+            <label>Email: <input type="text" name="name"></label>
+          </p>
+          <p>
+            <label>Mensaje: <textarea name="message"></textarea></label>
+          </p>
+          <div netlify-recaptcha></div>
+          <p>
+            <button type=”submit”>Send</button>
+          </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	margin: 0;
+}
+#wrapper{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+
+}
+#zonaPiezas{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+#piezas{
+	width: 80%;
+	height: 80%;
+	background-color: #31364f;
+	position: absolute;
+}
+#zonaTablero{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	background-color: #757575;
+}
+#tablero{
+	width: 80%;
+	height: 80%;
+	background-color: #404040;
+	position: absolute;
+	background-image: url(../img/MetroidPrime.jpg);
+	background-size: contain;
+}
+.Pieza {
+    float: left;
+    background-image: url('../img/MetroidPrime.jpg');
+    background-size: 486.376px;
+    position: absolute;
+}
+.tabPieza {
+    float: left;
+    background-color: #e9e9e9;
+    box-sizing: border-box;
+    border: solid 1px #ffffff;
+}
+button {
+	padding: 8px 16px;
+	cursor: pointer;
+}
+#ButtonsZone{
+	position: fixed;
+	z-index: 500;
+}
